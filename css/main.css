@@ -6,7 +6,7 @@ main {
     display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px);
-    margin-top: 15px;
+    margin-top: 50px;
     margin-right: 0;
 }
 
@@ -19,16 +19,17 @@ div {
 
 div > h1 {
     margin-left: 200px;
-
+    font-size: 150%;
 }
 
 div > p {
     margin-left: 200px;
+    line-height: 2; 
 }
 
 main > img {
-    
-    display: inline-block;
+    display: inline-block; 
+    margin-left: 30px;
 }
 
 .search-and-title {
@@ -38,52 +39,35 @@ main > img {
     margin-top: 15px;
 }
 
-.search-and-title > h3 {
-
-}
-
-.msearch-and-title > img {
-
-}
-
 .bottom-links-img {
-    background-color: yellow; color: blue; 
     display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px);
-    margin-top: 15px;
+    margin-top: 50px;
 }
 
 .bottom-links-img > .home-sector > p {
     display: inline-block;
-    width: 25%;
-    
-    
-    
+    margin-left: 0;
+    font-weight: bold;
+    position: absolute;   
 }
 
 .bottom-links-img > .home-sector > img {
     display: inline-block;
-    width: 25%;
-
-   
-    
-  
+    margin-left: 50px;
 }
 
 .bottom-links-img > .popular-sector > p {
     display: inline-block;
-    width: 25%;
-   
-    
+    margin-left: 0;
+    font-weight: bold;
+    position: absolute;
 }
 
 .bottom-links-img > .popular-sector > img {
     display: inline-block;
-    width: 25%;
-    
-    
-    
+    margin-left: -200px;
 }
 
 
