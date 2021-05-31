@@ -13,7 +13,7 @@ main {
 div {
     display: inline-block;
     float: left;
-    width: 60%;
+    width: 50%;
     text-align: center;
 }
 
@@ -31,22 +31,22 @@ main > img {
     display: inline-block;
 }
 
-.mydiv {
+.search-and-title {
     display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px);
     margin-top: 15px;
 }
 
-.mydiv > h3 {
+.search-and-title > h3 {
 
 }
 
-.mydiv > img {
+.msearch-and-title > img {
 
 }
 
-.xdiv {
+.bottom-links-img {
     background-color: yellow; color: blue; 
     display: inline-block;
     width: 800px;
@@ -54,11 +54,7 @@ main > img {
     margin-top: 15px;
 }
 
-.xdiv {
-
-}
-
-.xdiv > .home > p {
+.bottom-links-img > .home-sector > p {
     display: inline-block;
     width: 25%;
     
@@ -66,7 +62,7 @@ main > img {
     
 }
 
-.xdiv > .home > img {
+.bottom-links-img > .home-sector > img {
     display: inline-block;
     width: 25%;
 
@@ -75,14 +71,14 @@ main > img {
   
 }
 
-.xdiv > .pop > p {
+.bottom-links-img > .popular-sector > p {
     display: inline-block;
     width: 25%;
    
     
 }
 
-.xdiv > .pop > img {
+.bottom-links-img > .popular-sector > img {
     display: inline-block;
     width: 25%;
     
